@@ -14,7 +14,8 @@ Install the module with: `npm install -g gaia-screenshot`
     -f, --file [file]           Choose specified file
     -m, --mode [single / diff]  Test mode (General report / Diff report)
 
-
+  Report logs folder will be generated beside gaia folder.
+  
 ## Documentation
 _(Coming soon)_
 
