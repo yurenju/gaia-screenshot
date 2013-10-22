@@ -1,14 +1,19 @@
-# gaia_it_diff [![Build Status](https://secure.travis-ci.org/chsien/gaia_it_diff.png?branch=master)](http://travis-ci.org/chsien/gaia_it_diff)
+# gaia-screenshot
 
 Gaia Integration tests screenshots result comparision tool
 
 ## Getting Started
-Install the module with: `npm install gaia_it_diff`
+Install the module with: `npm install -g gaia-screenshot`
 
-```javascript
-var gaia_it_diff = require('gaia_it_diff');
-gaia_it_diff.awesome(); // "awesome"
-```
+  Usage: gaia-screenshot [options]
+
+  Options:
+
+    -h, --help                  output usage information
+    -V, --version               output the version number
+    -f, --file [file]           Choose specified file
+    -m, --mode [single / diff]  Test mode (General report / Diff report)
+
 
 ## Documentation
 _(Coming soon)_
