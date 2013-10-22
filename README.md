@@ -5,7 +5,7 @@ Gaia Integration tests screenshots result comparision tool
 ## Getting Started
 Install the module with: `npm install -g gaia-screenshot`
 
-  Usage: gaia-screenshot [options]
+  Usage in Gaia Folder: gaia-screenshot [options]
 
   Options:
 
