@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Screenshot Images Diff Roport%></title>
+</head>
+
+<body>
+  <ul>
+  <% for (var i = 0; i < data.length; i++) { %> 
+    <li>
+      <h1><%= data[i].description %></h1>
+      <img src="<%= data[i].image_a %>"></img>
+      <% if(data[i].image_b) { %>
+        <img src="<%= data[i].image_b %>"></img>
+      <% } %>
+      <% if(data[i].image_diff) { %>
+        <img src="<%= data[i].image_diff %>"></img>
+      <% } %>
+    </li>
+  <% } %>
+  </ul>
+</body>
+
+</html>
