@@ -8,15 +8,15 @@
 
 <body>
   <ul>
-  <% for (var i = 0; i < data.length; i++) { %> 
+  <% for (var i = 0; i < screenshots.length; i++) { %> 
     <li>
-      <h1><%= data[i].description %></h1>
-      <img src="<%= data[i].image_a %>"></img>
-      <% if(data[i].image_b) { %>
-        <img src="<%= data[i].image_b %>"></img>
+      <h1><%= screenshots[i].description %></h1>
+      <img src="<%= screenshots[i].image_a %>"></img>
+      <% if(screenshots[i].image_b) { %>
+        <img src="<%= screenshots[i].image_b %>"></img>
       <% } %>
-      <% if(data[i].image_diff) { %>
-        <img src="<%= data[i].image_diff %>"></img>
+      <% if(screenshots[i].image_diff) { %>
+        <img src="<%= screenshots[i].image_diff %>"></img>
       <% } %>
     </li>
   <% } %>

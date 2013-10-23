@@ -33,6 +33,7 @@
     "ejs": "~0.8.4",
     "node-uuid": "~1.4.1",
     "commander": "~2.0.0",
+    "pdfkit": "~0.2.0",
     "gitlog": "git://github.com/domharrington/node-gitlog.git",
     "node-exec-sync": "git://github.com/jeremyfa/node-exec-sync.git"
   },
