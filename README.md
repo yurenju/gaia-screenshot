@@ -1,6 +1,6 @@
 # gaia-screenshot
 
-Gaia Integration tests screenshots result comparision tool
+Gaia Integration test screenshots result comparison tool
 
 ## Getting Started
 Install the module with: `npm install -g gaia-screenshot`
@@ -15,7 +15,7 @@ Install the module with: `npm install -g gaia-screenshot`
     -m, --mode [single / diff]  Test mode (General report / Diff report)
 
   Report logs folder will be generated beside gaia folder.
-  
+
 ## Documentation
 _(Coming soon)_
 
