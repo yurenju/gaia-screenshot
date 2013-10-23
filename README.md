@@ -3,7 +3,12 @@
 Gaia Integration test screenshots result comparison tool
 
 ## Getting Started
-Install the module with: `npm install -g gaia-screenshot`
+  Install Imagemagick before installing this module.
+
+  	brew install imagemagick
+  	sudo apt-get install libmagick++-dev
+  
+  Install the module with: `npm install -g gaia-screenshot`
 
   Usage in Gaia Folder: gaia-screenshot [options]
 
